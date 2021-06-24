@@ -10,4 +10,4 @@ Apache: cria um http server e mostrar os testes.
 
 ## Executando o container monitor:
 
-- Comando para rodar o container monitor aqui
+- sudo docker run --rm --network=host --name=monitor labredes21/labredes21 python3 monitor.py 127.0.0.1 8081
